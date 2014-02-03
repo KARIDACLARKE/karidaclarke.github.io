@@ -1,0 +1,17 @@
+header {
+  background:url('http://placehold.it/1920x675/BF1919');
+  background-color: #404040;
+  height: 675px;
+}
+
+#synopsis {
+  background-color: #eeeeee;
+  height: 300px;
+}
+
+#synopsis p {
+  color: #2e3644;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+}
