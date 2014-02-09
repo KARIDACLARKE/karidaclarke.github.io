@@ -8,7 +8,7 @@
 
     <meta name="description" content="Welcome to the World of Karida Clarke">
     <meta name="author" content="">
-    <title>World of Karida Clarke</title>
+    <title>Karida Clarke</title>
 
     <!-- Bootstrap -->
     <link href="lib/bootstrap_3_1_0/css/bootstrap.min.css" rel="stylesheet">
@@ -33,13 +33,15 @@
 
     <header>
       <div class="container">
-     <!--   <h1>Welcome to the World of Karida Clarke</h1> -->
-        <div class="jumbotron teaser text-center">
+        <!-- Show plain text when view is small -->
+        <h1 class="text-center hidden-md hidden-lg" style="color: #FFFFFF">Welcome to the World of Karida Clarke!</h1>
+
+        <!-- Show image banner on desktops -->
+        <div id="banner" class="jumbotron teaser text-center visible-md visible-lg">
           <!-- <img src="img/FaceBookHeader_fullres.jpg" class="img-responsive" alt="Captured Heat Book" /> -->
-          <p>
-            <!--<a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a> -->
-          </p>
         </div>
+
+
       
       </div>
     </header>
