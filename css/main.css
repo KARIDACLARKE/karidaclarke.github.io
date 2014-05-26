@@ -1,7 +1,4 @@
 header {
-/*   background:url('http://placehold.it/1920x675/BF1919'); */
-/*   background:url('http://placehold.it/1920x675/000000'); */
-/*  background:url('../img/FaceBookHeader_fullres.jpg') no-repeat center center fixed; */
   background-color: #000000;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -14,7 +11,7 @@ header {
 }
 
 .teaser {
-  background:url('../img/FaceBookHeader_final_withoutdate.jpg');
+  background:url('../img/header.png');
   background-color: #000000;
   -moz-background-size: cover;
   -webkit-background-size: cover;
