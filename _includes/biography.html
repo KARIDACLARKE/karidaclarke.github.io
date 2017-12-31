@@ -1,0 +1,12 @@
+{% assign author = site.data.contentful.spaces.website.author | first %}
+
+<section id="biography" style="padding-bottom: 10px;">
+  <div class="container featurette">
+    <img src="{{ author.profile_photo.url }}" class="img-responsive img-circle pull-left" alt="{{ author.title }}" style="margin: 20px 30px 0px 0px;"/>
+    <h2 class="featurette-heading" style="text-align: center;">{{ author.title }}</h2>
+
+    <div class="featurette-body">
+      {{ author.biography | markdownify }}
+    </div>
+  </div>
+</section>
