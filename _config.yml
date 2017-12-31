@@ -1,0 +1,17 @@
+# Site settings
+title: The World of Karida Clarke
+email: None
+description: > # this means to ignore newlines until "baseurl:"
+  The fan site for Karida Clarke
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://karidaclarke.com" # the base hostname & protocol for your site
+twitter_username: karidaclarke
+
+# Build settings
+markdown: kramdown
+
+contentful:
+  spaces:
+    - example: # Jekyll _data folder identifier - Required
+        space: bd02t5nm4luk # Required
+        access_token: 477dc52355a26d6eb8682e0fba50b0aa9136e277f00d82c9a7a2cc5292f70e30 # Required
