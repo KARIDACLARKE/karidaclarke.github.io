@@ -16,7 +16,6 @@ header {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  background-size: auto 100%;
   font-size: xx-large;
   height: 400px;
 }
